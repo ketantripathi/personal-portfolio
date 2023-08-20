@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-color: rgba(197, 197, 255, 0.856); */
+    background-image: linear-gradient( rgb(200, 200, 248),rgb(223, 192, 197),rgba(143, 143, 255, 0.856), rgb(90, 176, 233),rgb(177, 103, 238),rgb(28, 25, 31));
+}
+.navbar{
+    background-color: rgb(137, 33, 235);
+    height: 60px;
+    max-width: 100%;
+}
+#kt{
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 2000px;
+    padding: 10px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.navitem{
+    margin-top: 10px;
+    list-style: none;
+    padding: 10px 50px;
+}
+.navitem a{
+    color: white;
+    padding: 1px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navitem:hover{
+    background-color: rgb(187, 119, 252);
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.navitem a:hover{
+    font-weight: bolder;
+    color: black;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    padding: 10px 0px;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    padding: 20px 0px;
+}
+.intro{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.introduction{
+    /* border: 2px solid red; */
+    margin: 0px 50px;
+    padding: 10px;
+}
+#textintro{
+    border-radius: 8px;
+    background-color: #ffffff75;
+    border: 1px solid white;
+    box-shadow: 15px 15px 10px 2px blueviolet;
+    height: 30vh;
+    font-weight: bolder;
+}
+.introduction img{
+    height: 400px;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 500px;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(108, 167, 255),rgb(0, 0, 0));
+}
+.skills{
+    /* background-color: rgb(180, 161, 250); */
+    display: flex;
+    flex-direction: column;
+}
+.headings{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    background-image: linear-gradient(to right, blue,pink);
+    width: 200px;
+    position: absolute;
+    left: 42%;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 5px;
+}
+.headings:hover{
+    color: white;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px black;
+    border: 2px solid black;
+}
+.skillset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.skillitems{
+    border: 2px solid black;
+    height: 12vw;
+    width: 25vw;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.123);
+    font-family: 'Ubuntu', sans-serif;
+}
+.skillitems:hover{
+    box-shadow: 2px 2px 5px black;
+    background-color: rgba(255, 255, 255, 0.123);
+
+}
+.skillset h1{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imgpart img{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 4em;
+    border: 10px solid blueviolet;
+    border-top: 5px;
+    border-right: 5px;
+    box-shadow: -2px 2px 12px black;
+}
+.imgpart img:hover{
+    box-shadow: -2px 2px 12px rgb(87, 84, 84);
+    cursor: pointer;
+}
+.even img{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 4em;
+    border: 10px solid blueviolet;
+    border-bottom: 5px;
+    border-left: 5px;
+    box-shadow: 2px 2px 12px black;
+}
+.even img:hover{
+    box-shadow: 2px 2px 12px rgb(100, 99, 99);
+    cursor: pointer;
+}
+.textpart{
+    height: 20vw;
+    width: 30vw;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(68, 68, 68);
+    padding: 12px;
+    background-image: linear-gradient(rgba(233, 233, 233, 0.377),rgba(199, 199, 199, 0.329),rgba(218, 217, 217, 0.308));
+    font-family: 'Ubuntu', sans-serif;
+}
+.textpart:hover{
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+.subheading{
+    color: rgb(0, 0, 0) !important;
+    font-weight: bolder !important;       
+}
+.imgbg{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 2em;
+    background-color: rgb(124, 224, 255) ;
+}
+.foot{
+    height: 20vh;
+    max-width: 100%;
+    background-color: rgb(122, 113, 113);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin: 2px;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    height: 6vh;
+}
+.logo img{
+    margin: 2px 15px;
+    padding: 2px;
+    border-radius: 100px;
+    background-image: linear-gradient(white,grey);
+    height: 35px;
+}
+.ending{
+    margin: 15px 0px;
+    padding: 3px;
+    height: 3vh;
+    align-items: center;
+}
+hr{
+    opacity: 80%;
+}
+@media screen and (max-width: 500px) {
+    .navbar{
+        width: auto;
+        height: auto;
+    }
+    .navbar ul{
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .introduction{
+        margin: 5px 0px;
+        height: auto;
+    }
+}
+#textintro span::before{
+    content: "C Programmer";
+    padding-left: 5px;
+    animation: changeskills 10s infinite steps(10);
+}
+@keyframes changeskills {
+    0%{ content: "C|";} 
+    1%{ content: "C |";}   
+    2%{ content: "C P|";}   
+    3%{ content: "C Pr|";}   
+    4%{ content: "C Pro|";}   
+    5%{ content: "C Prog|";}   
+    6%{ content: "C Progr|";}   
+    7%{ content: "C Progra|";}   
+    8%{ content: "C Program|";}   
+    9%{ content: "C Programm|";}   
+    10%{ content: "C Programme|";}   
+    11%{ content: "C Programmer|";}   
+    12%{ content: "C Programme|";}   
+    13%{ content: "C Programm|";}   
+    14%{ content: "C Program|";}   
+    15%{ content: "C Progra|";}   
+    16%{ content: "C Progr|";}   
+    17%{ content: "C Prog|";}   
+    19%{ content: "C Pro|";}   
+    20%{ content: "C Pr|";}   
+    21%{ content: "C P|";}   
+    22%{ content: "C |";}
+    23%{ content: "C|";}
+    24%{ content: "|";}
+    25%{ content:"J|"; }
+    26%{ content:"JA|"; }
+    27%{ content:"JAV|"; }
+    28%{ content:"JAVA|"; }
+    29%{ content:"JAVA |"; }
+    30%{ content:"JAVA P|"; }
+    31%{ content:"JAVA Pr|"; }
+    32%{ content:"JAVA Pro|"; }
+    33%{ content:"JAVA Prog|"; }
+    34%{ content:"JAVA Progr|"; }
+    35%{ content:"JAVA Progra|"; }
+    36%{ content:"JAVA Program|"; }
+    37%{ content:"JAVA Programm|"; }
+    38%{ content:"JAVA Programme|"; }
+    39%{ content:"JAVA Programmer|"; }
+    40%{ content:"JAVA Programmer|"; }
+    41%{ content:"JAVA Programme|"; }
+    42%{ content:"JAVA Programm|"; }
+    43%{ content:"JAVA Program|"; }
+    44%{ content:"JAVA Progra|"; }
+    45%{ content:"JAVA Progr|"; }
+    46%{ content:"JAVA Prog|"; }
+    47%{ content:"JAVA Pro|"; }
+    48%{ content:"JAVA Pr|"; }
+    49%{ content:"JAVA P|"; }
+    50%{ content:"JAVA|"; }
+    51%{ content:"JAV|"; }
+    52%{ content:"JA|"; }
+    53%{ content:"J|"; }
+    54%{ content:"|"; }
+    55%{ content:"W|"; }
+    56%{ content:"WE |"; }
+    57%{ content:"WEB|"; }
+    58%{ content:"WEB |"; }
+    59%{ content:"WEB |"; }
+    60%{ content:"WEB D|"; }
+    61%{ content:"WEB De|"; }
+    62%{ content:"WEB Dev|"; }
+    63%{ content:"WEB Deve|"; }
+    64%{ content:"WEB Devel|"; }
+    65%{ content:"WEB Develo|"; }
+    66%{ content:"WEB Develop|"; }
+    67%{ content:"WEB Develope|"; }
+    68%{ content:"WEB Developer|"; }
+    69%{ content:"WEB Developer|"; }
+    70%{ content:"WEB Develope|"; }
+    71%{ content:"WEB Develop|"; }
+    72%{ content:"WEB Develo|"; }
+    73%{ content:"WEB Devel|"; }
+    74%{ content:"WEB Deve|"; }
+    75%{ content:"WEB Dev|"; }
+    76%{ content:"WEB De|"; }
+    77%{ content:"WEB D|"; }
+    78%{ content:"WEB |"; }
+    79%{ content:"WEB|"; }
+    80%{ content:"WE|"; }
+    81%{ content:"W|"; }
+    82%{ content:"|"; }
+    83%{ content:"U|"; }
+    84%{ content:"UI|"; }
+    85%{ content:"UI/|"; }
+    86%{ content:"UI/U|"; }
+    87%{ content:"UI/UX|"; }
+    88%{ content:"UI/UX |"; }
+    89%{ content:"UI/UX D|"; }
+    90%{ content:"UI/UX De|"; }
+    91%{ content:"UI/UX Dev|"; }
+    92%{ content:"UI/UX Deve|"; }
+    93%{ content:"UI/UX Devel|"; }
+    94%{ content:"UI/UX Develo|"; }
+    95%{ content:"UI/UX Develop|"; }
+    96%{ content:"UI/UX Devloper|"; }
+
+
+
+
+
+    75%{ content:"WEB Developer"; }
+}
